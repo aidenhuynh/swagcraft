@@ -1,41 +1,108 @@
-## Location
-> Browse [Coram Ranch Site](https://www.coramranch.com/) to learn about reunion location and surrounding community. 
-- [Video Tour](https://youtu.be/kX24Zv1CJZA)
-- [Google Maps 14251 Coram Rd, Shasta Lake, California 96089](https://www.google.com/maps/place/14251+Coram+Rd,+Shasta+Lake,+CA+96019/@40.707988,-122.44701,16z/data=!4m5!3m4!1s0x54d28be161c895ef:0xca3b8805b9b6a5ec!8m2!3d40.7079882!4d-122.4470104?hl=en)
-- ***NO PETS***
+## Crafting recipes
 
-## Schedule
+<style>
+    .gridrow {
+        width:10%;
+        margin-left:5px;
+        margin-right:5px;
+        text-align:center;
+        border-left-width: 100%;
+    }
 
-| Date | Day | Time | Event | Meet At | Coordinator |
-| --- | --- | --- | --- | --- | --- |
-| 6/26 | Monday | 3pm | Check in | Shasta Lakes | Frank and Judith |
-| --- | --- | 6pm | Dinner | Dining Room | Lisa |
-| --- | --- | 7pm | Leuck Greet | Dining Room | Frank and Judith |
-| 6/27 | Tuesday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Greet Games | Field and Court | Johnner, Lora, Shay|
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 2pm | Bike/Hike | Bike Rack | Johnner and Lora |
-| --- | --- | 6pm | Dinner hi| Dining Room | Sherri |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/28 | Wednesday | 7:30 | Zumba | Court | Kira |
-| --- | --- | 8:30am | Breakfast | Dining | Lisa |
-| --- | --- | 10am | Pool Olympics | Pool Area | Annalyce, Peyton |
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Spelunking | [Cars, 32 minutes travel](http://lakeshastacaverns.clickforward.com/group-tours) | Johnner and Lora|
-| --- | --- | 6pm | Dinner | Dining Room | Angela |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/29 | Thursday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Field Olympics | Field | Jake, Taylor |
-| --- | --- | 12:30pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Boating | [Cars, 25 minutes travel](https://bridgebayhouseboats.com/houseboats/grand-sierra) | Jared |
-| --- | --- | 6pm | Dinner | Dining Room | Jared and Jeremiah |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/30 | Friday | 7:30 | Zumba | Court | Lisa |
-| --- | --- | 8:30am | Breakfast | Dining | Kira |
-| --- | --- | 10am | Family Relays | Field or Court | Johnner |
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Explore the area | You pick | Self coordinated |
-| --- | --- | 6pm | Dinner | Dining Room | John |
-| --- | --- | 7pm | Family Night | Dining Room |John and Mel |
-| 7/1 | Saturday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Check Out | Travel Home | Your it |
+
+</style>
+
+<table>
+    <tbody id="bruh">
+    <tr>
+        <th>Item</th>
+        <th colspan="3">Recipe </th>
+        <th colspan="3"></th>
+        <th>Output</th>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+// For this, do "item_name":"image url"
+var items = {
+    "blank":"images/blank.png",
+    "plank":"images/wooden_planks.webp",
+    "stick":"images/stick.webp",
+    "woodenSlab":"images/wooden_slab.webp"
+
+}
+
+
+// craftables Format:
+// {
+//     "itemName":
+//     "ITEMHERE",
+
+//     "itemRecipe":[
+//     [items["blank"], items["blank"], items["blank"]],
+//     [items["blank"], items["blank"], items["blank"]],
+//     [items["blank"], items["blank"], items["blank"]]
+//     ],
+
+//     "itemOutput":
+//     items["ITEMHERE"]
+// },
+
+var craftables = [
+{
+    "itemName":
+    "Stick",
+
+    "itemRecipe":[
+    [items["blank"], items["blank"], items["blank"]],
+    [items["blank"], items["plank"], items["blank"]],
+    [items["blank"], items["plank"], items["blank"]]
+    ],
+
+    "itemOutput":
+    items["stick"]
+},
+{
+    "itemName":
+    "Wooden Slab",
+
+    "itemRecipe":[
+    [items["blank"], items["blank"], items["blank"]],
+    [items["plank"], items["plank"], items["plank"]],
+    [items["blank"], items["blank"], items["blank"]]
+    ],
+
+    "itemOutput":
+    items["woodenSlab"]
+},
+
+]
+
+for (let i = 0; i < craftables.length; i++) {
+    document.getElementById('bruh').innerHTML += '\
+    <tr> \
+        <td rowspan="3">' + craftables[i]["itemName"] + '</td> \
+        \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][0][0] + '"style="width:30px;height:30px;"></td> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][0][1] + '"style="width:30px;height:30px;"></td> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][0][2] + '"style="width:30px;height:30px;"></td> \
+        \
+        <td rowspan="3" colspan="3" style="text-align:center"><img src="images/right_arrow_temp.png" style="width:80px;height:50px"></td> \
+        <td rowspan="3"><img src="' + craftables[i]["itemOutput"] + '"style="width:50px;height:50px;"></td> \
+    </tr> \
+    <tr> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][1][0] + '"style="width:30px;height:30px;"></td> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][1][1] + '"style="width:30px;height:30px;"></td> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][1][2] + '"style="width:30px;height:30px;"></td> \
+    </tr> \
+    <tr> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][2][0] + '"style="width:30px;height:30px;"></td> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][2][1] + '"style="width:30px;height:30px;"></td> \
+        <td class="gridrow"><img src="' + craftables[i]["itemRecipe"][2][2] + '"style="width:30px;height:30px;"></td> \
+    </tr> \
+    '
+  }
+
+
+</script>

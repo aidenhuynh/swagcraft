@@ -8,23 +8,10 @@ Markdown Format takes entire column
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
   <div class="column">
-    <img src="/images/leuck_1992.jpeg" alt="1992" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/images/leuck_surf.jpeg" alt="1996" style="width:100%">
-  </div>
-  <div class="column">
     <img src="/images/leuck_mexico_goof.jpg" alt="1996" style="width:100%">
   </div>
-</div>
-
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
   <div class="column">
     <img src="/images/leuck_clan.jpg" alt="1999" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/images/leuck_silver_creek.jpeg" alt="2004" style="width:100%">
   </div>
   <div class="column">
     <img src="/images/leuck_chelan.jpeg" alt="2015" style="width:100%">
@@ -88,78 +75,13 @@ Markdown Format takes entire column
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
   <div class="column">
-    <img src="/images/Brianna_Fam_2022.jpg" alt="2022" style="width:100%">
+    <img src="/images/Brianna Fam_2022.jpg" alt="2022" style="width:100%">
   </div>
    <div class="column">
-    <img src="/images/Brianna_Fam_2_2022.jpg" alt="2022" style="width:100%">
+    <img src="/images/Brianna Fam 2_2022.jpg" alt="2022" style="width:100%">
   </div>
    <div class="column">
-
-  </div>
-</div>
-
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
-  <div class="column">
-    <img src="/images/KiraFam_2020.JPG" alt="2020" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/KiraFam_2021.JPG" alt="2021" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/Kira_Preg#4.jpg" alt="2022" style="width:100%">
-  </div>
-</div>
-
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
-  <div class="column">
-    <img src="/images/EthanFam_07.2022.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/EthanFam2_2022.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/LisaEnglandGBs_07.2022.JPG" alt="9999" style="width:100%">
-  </div>
-</div>
-
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
-  <div class="column">
-    <img src="/images/Lisa_Chris_10.2022.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/LisaGrad_06.17.22.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/Lisa_Braden_2022.JPG" alt="2022" style="width:100%">
-  </div>
-</div>
-
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
-  <div class="column">
-    <img src="/images/Jarom2022Halloween.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/LisaScotlandCulloden_07.22.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    
-  </div>
-</div>
-
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
-  <div class="column">
-    <img src="/images/Shreeve2022Halloween.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/Carlson2022Halloween.JPG" alt="2022" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/Northrop2022Halloween.JPG" alt="2022" style="width:100%">
+    <img src="/images/goofy.webp" alt="9999" style="width:100%">
   </div>
 </div>
 
@@ -234,13 +156,13 @@ Markdown Format takes entire column
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
   <div class="column">
-    <img src="/images/DSC_9084EDIT.jpg" alt="2022" style="width:100%">
+    <img src="/images/goofy.webp" alt="9999" style="width:100%">
   </div>
    <div class="column">
-    <img src="/images/IMG_3335.JPG" alt="2022" style="width:100%">
+    <img src="/images/goofy.webp" alt="9999" style="width:100%">
   </div>
    <div class="column">
-    <img src="/images/IMG_3432.JPG" alt="2022" style="width:100%">
+    <img src="/images/goofy.webp" alt="9999" style="width:100%">
   </div>
 </div>
 
