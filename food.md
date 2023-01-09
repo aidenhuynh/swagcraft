@@ -5,11 +5,13 @@
 > There will definitely be tables involved with the frontend design, and I want to customize the page with images of the shows, alongside its own color scheme and font style.
 
 ### Visual Example
-images/Screenshot 2023-01-08 220535.jpg
+![Screenshot 2023-01-08 220535](https://user-images.githubusercontent.com/51098969/211266351-043bdb84-f2b6-4417-8f5b-1b5177440f8f.jpg)
+
 
 ### Table Customization
+
 | Anime Name and Image       | User Submitted     | Average Rating     | Upvotes | Downvotes |
-| -------------- | ----------- | ----------- | | |
+| -------------- | ----------- | ----------- | --------|-------------- |
 | Bleach | Jagger K. | 4.4 | 22 | 2 |
 | Naruto | Aiden H. | 3.2 | 16 | 4 |
 | Chainsaw Man | Jeffrey L. | 2.6 | 8 | 3 |
