@@ -47,38 +47,28 @@
 var items = {
     "blank":
     {
-        "imageURL":"images/blank.png",
-        "itemName":"Nothing"
+        "imageURL":"images/blank.png"
         },
 
     "log":
     {
-        "imageURL":"images/log.webp",
-        "itemName":"Log"
+        "imageURL":"images/log.webp"
         },
 
     "plank":
     {
-        "imageURL":"images/wooden_planks.webp",
-        "itemName":"Wooden Planks"
+        "imageURL":"images/wooden_planks.webp"
         },
 
     "stick":
     {
-        "imageURL":"images/stick.webp",
-        "itemName":"Stick"
+        "imageURL":"images/stick.webp"
         },
 
-    "woodenSlab":
+    "wooden slab":
     {
-        "imageURL":"images/wooden_slab.webp",
-        "itemName":"Wooden Slab"
+        "imageURL":"images/wooden_slab.webp"
         },
-    "woodenPickaxe":
-    {
-        "imageURL":"images/wooden_pickaxe.webp",
-        "itemName":"Wooden Pickaxe"
-    },
 }
 
 
@@ -149,22 +139,6 @@ var craftables = [
     "itemQuantity":
     4
 },
-{
-    "itemName":
-    "Wooden Pickaxe",
-
-    "itemRecipe":[
-    [items["plank"], items["plank"], items["plank"]],
-    [items["blank"], items["stick"], items["blank"]],
-    [items["blank"], items["stick"], items["blank"]]
-    ],
-
-    "itemOutput":
-    items["woodenPickaxe"],
-
-    "itemQuantity":
-    1
-},
 ]
 
 function createRow(list, index, rowNum) {
@@ -173,8 +147,9 @@ function createRow(list, index, rowNum) {
 
     while (n < 3) {
         output += ' \
-        <td class="gridrow"><img title="' + list[index]["itemRecipe"][rowNum][n]["itemName"] + '" src="' + list[index]["itemRecipe"][rowNum][n]["imageURL"] + '"style="width:30px;height:30px;"></td> \
+        <td class="gridrow"><img title="' + list[index]["itemName"] + '" src="' + list[index]["itemRecipe"][rowNum][n]["imageURL"] + '"style="width:30px;height:30px;"></td> \
         '
+        console.log(output)
         n += 1
     }
     
@@ -199,7 +174,7 @@ function getRecipes(list) {
             ' + createRow(list, i, 0) + ' \
              \
             <td rowspan="3" colspan="3" style="text-align:center"><img src="images/right_arrow.png" style="width:80px;height:30px"></td> \
-            <td rowspan="3" style="width:50px"><img title="' + list[i]["itemOutput"]["itemName"]+ ' "src="' + list[i]["itemOutput"]["imageURL"] + '"style="wrapping:none;width:auto;height:auto;">\n <i style="text-align:right">' + list[i]["itemQuantity"] + '</i></td> \
+            <td rowspan="3" style="width:50px"><img src="' + list[i]["itemOutput"]["imageURL"] + '"style="width:auto;height:auto;"></td> \
         </tr> \
         <tr>\n' + createRow(list, i, 1) + '\n</tr> \
         <tr>\n' + createRow(list, i, 2) + '\n</tr> \
@@ -213,8 +188,8 @@ function search(list) {
     results = []
     input = document.getElementById('searchBar').value.toLowerCase()
 
-    if (input == "" || input == null) {
-        getRecipes(craftables)
+    if (input == "") {
+        getRecipes(results)
     }
     else {
         for (let i = 0; i < list.length; i++) {
