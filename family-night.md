@@ -78,3 +78,37 @@ DPS is actually a general gaming term that stands for “Damage Per Second”. I
 | Symmetra      | A               |
 | Torbjörn      | A               |
 | Tracer        | S               |
+
+ Name          | Tier            
+ ------------- | --------------- 
+ Ana           | S               
+ Baptiste      | A               
+ Brigitte      | C               
+ Lucio         | A               
+ Mercy         | S               
+ Moira         | B               
+ Zenyatta      | A               
+ D.Va          | A               
+ Orisa         | S               
+ Reinhardt     | B               
+ Roadhog       | S               
+ Sigma         | A               
+ Winston       | S               
+ Wrecking Ball | B               
+ Ashe          | A               
+ Doomfist      | A               
+ Sojourn       | S               
+ Echo          | S               
+ Genji         | A               
+ Hanzo         | B               
+ Widowmaker    | B               
+ Junkrat       | B               
+ McCree        | B               
+ Meis          | B               
+ Pharah        | B               
+ Reaper        | B               
+ Soldier: 76   | B               
+ Sombra        | C               
+ Symmetra      | A               
+ Torbjörn      | A               
+ Tracer        | S               
