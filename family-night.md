@@ -11,8 +11,6 @@ DPS is actually a general gaming term that stands for “Damage Per Second”. I
 - Support heroes boost the overall performance of their team by increasing their survivability, speed, and damage output. They are generally the worst duelists and are best when surrounded by teammates.
 | Name          | Role            |
 | ------------- | --------------- |
-| Ana       | Name          | Role            |
-| ------------- | --------------- |
 | Ana           | Support         |
 | Baptiste      | Support         |
 | Brigitte      | Support         |
