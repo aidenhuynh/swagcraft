@@ -1,3 +1,10 @@
+<style>
+    img {
+        height:100px;
+        width:auto
+    }
+</style>
+
 ### The Item Drop Table
 
 ## My Plan
