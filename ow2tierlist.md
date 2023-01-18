@@ -9,120 +9,142 @@ DPS is actually a general gaming term that stands for “Damage Per Second”. I
 
 ### Support
 - Support heroes boost the overall performance of their team by increasing their survivability, speed, and damage output. They are generally the worst duelists and are best when surrounded by teammates.
-
- Name          | Role            
- ------------- | --------------- 
- Ana           | Support         
- Baptiste      | Support         
- Brigitte      | Support         
- Lucio         | Support         
- Mercy         | Support         
- Moira         | Support         
- Zenyatta      | Support         
- Kiriko        | Support         
- D.Va          | Tank            
- Orisa         | Tank            
- Reinhardt     | Tank            
- Roadhog       | Tank            
- Sigma         | Tank            
- Winston       | Tank            
- Wrecking Ball | Tank            
- Rammatra      | Tank            
- Ashe          | Damage          
- Doomfist      | Damage          
- Echo          | Damage          
- Genji         | Damage          
- Hanzo         | Damage          
- Junkrat       | Damage          
- McCree        | Damage          
- Meis          | Damage          
- Pharah        | Damage          
- Reaper        | Damage          
- Soldier: 76   | Damage          
- Sombra        | Damage          
- Symmetra      | Damage          
- Torbjörn      | Damage          
- Tracer        | Damage          
-
-<table>
+         
+ <table>
   <tr>
     <th>Name</th>
     <th>Role</th>
   </tr>
   <tr>
     <td>Ana</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>Baptiste</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>Brigitte</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>Lucio</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>Mercy</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>Moira</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>Zenyatta</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>Kiriko</td>
-    <td style="background-color: #87CEFA;">Support</td>
+    <td style="background-color: #ffd700;">Support</td>
   </tr>
   <tr>
     <td>D.Va</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Orisa</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Reinhardt</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Roadhog</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Sigma</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Winston</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Wrecking Ball</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Rammatra</td>
-    <td style="background-color: #F08080;">Tank</td>
+    <td style="background-color: #0000ff;">Tank</td>
   </tr>
   <tr>
     <td>Ashe</td>
-    <td style="background-color: #FFFF00;">Damage</td>
+    <td style="background-color: #ff0000;">Damage</td>
   </tr>
   <tr>
     <td>Doomfist</td>
-    <td style="background-color: #FFFF00;">
-</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Echo</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Genji</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Hanzo</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Junkrat</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>McCree</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Meis</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Pharah</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Reaper</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Soldier: 76</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Sombra</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Sorjourn</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Symmetra</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Torbjörn</td>
+    <td style="background-color: #ff0000;">Damage</td>
+  </tr>
+  <tr>
+    <td>Tracer</td>
+    <td style="background-color: #ff0000;">Damage</td>
   </tr>
 </table>
+
 
 
 
