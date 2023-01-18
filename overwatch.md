@@ -121,6 +121,7 @@ DPS is actually a general gaming term that stands for “Damage Per Second”. I
     <td>Doomfist</td>
     <td style="background-color: #FFFF00;">Damage</td>
   </tr>
+  <tr>
 </table>
 
 
